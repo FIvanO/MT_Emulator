@@ -79,6 +79,7 @@ int main()
             if (Move[state][ns] == 'L') pos--; else {
                 while (mt[1] == 'e') mt.erase(0, 1);
                 cout << "Result: " << mt << endl;
+                system("pause");
                 return 0;
             }
         }
